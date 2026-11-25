@@ -1,0 +1,1 @@
+Les PNG offer-01 à offer-03 sont des fiches de synthèse visuelles reconstituées à partir des annonces référencées, PAS des captures d’écran originales des sites. Elles indiquent explicitement leur statut. Ouvrir les liens source dans le site portfolio pour consulter les annonces et réaliser des captures authentiques si le professeur les exige.

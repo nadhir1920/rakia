@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bgCafe" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f7effa"/>
+      <stop offset="55%" stop-color="#efe3f5"/>
+      <stop offset="100%" stop-color="#e7d4ee"/>
+    </linearGradient>
+    <linearGradient id="plumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a2a82"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2547d"/>
+      <stop offset="100%" stop-color="#d43963"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2c1642" flood-opacity="0.16"/>
+    </filter>
+    <filter id="phoneShadow" x="-15%" y="-10%" width="135%" height="130%">
+      <feDropShadow dx="-8" dy="16" stdDeviation="14" flood-color="#2c1642" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgCafe)"/>
+  <circle cx="670" cy="95" r="140" fill="#f2547d" opacity="0.14"/>
+  <circle cx="130" cy="360" r="150" fill="#5a2a82" opacity="0.12"/>
+
+  <!-- Desktop Browser Mockup -->
+  <g filter="url(#cardShadow)">
+    <rect x="95" y="56" width="510" height="334" rx="16" fill="#ffffff"/>
+    <rect x="95" y="56" width="510" height="34" rx="16" fill="#faf6fc"/>
+    <rect x="95" y="76" width="510" height="14" fill="#faf6fc"/>
+    <line x1="95" y1="90" x2="605" y2="90" stroke="#ebe1f2" stroke-width="1"/>
+    <circle cx="117" cy="73" r="5" fill="#f2547d"/>
+    <circle cx="133" cy="73" r="5" fill="#f6b94d"/>
+    <circle cx="149" cy="73" r="5" fill="#3ec28f"/>
+    <rect x="240" y="65" width="210" height="16" rx="8" fill="#efe6f5"/>
+
+    <!-- Website Header Nav -->
+    <rect x="122" y="104" width="68" height="10" rx="5" fill="#5a2a82"/>
+    <rect x="380" y="106" width="34" height="6" rx="3" fill="#b7acc7"/>
+    <rect x="424" y="106" width="34" height="6" rx="3" fill="#b7acc7"/>
+    <rect x="468" y="106" width="42" height="6" rx="3" fill="#b7acc7"/>
+    <rect x="522" y="101" width="56" height="16" rx="8" fill="url(#roseGrad)"/>
+
+    <!-- Hero Banner inside site -->
+    <rect x="122" y="128" width="456" height="122" rx="12" fill="url(#plumGrad)"/>
+    <circle cx="496" cy="189" r="44" fill="#ffffff" opacity="0.1"/>
+    <!-- Coffee Cup Vector -->
+    <path d="M472 178 h46 v22 c0 12 -10 21 -23 21 s-23 -9 -23 -21 z" fill="#fdf6f0"/>
+    <path d="M518 183 h8 c5 0 9 4 9 9 s-4 9 -9 9 h-8" stroke="#fdf6f0" stroke-width="4" fill="none"/>
+    <ellipse cx="495" cy="224" rx="32" ry="4" fill="#f2547d" opacity="0.7"/>
+    <path d="M484 166 c0-6 5-7 5-12 M496 164 c0-7 5-8 5-13 M508 166 c0-6 5-7 5-12" stroke="#f7b3c6" stroke-width="2.5" stroke-linecap="round"/>
+
+    <rect x="148" y="152" width="120" height="10" rx="5" fill="#f2547d"/>
+    <rect x="148" y="172" width="215" height="14" rx="7" fill="#ffffff"/>
+    <rect x="148" y="194" width="175" height="8" rx="4" fill="#d9c6ea"/>
+    <rect x="148" y="214" width="92" height="22" rx="11" fill="#ffffff"/>
+
+    <!-- Menu Cards Row -->
+    <rect x="122" y="266" width="142" height="104" rx="10" fill="#fbf8fc" stroke="#e9ddf0"/>
+    <rect x="134" y="278" width="118" height="48" rx="8" fill="#f3d6df"/>
+    <circle cx="193" cy="302" r="14" fill="#5a2a82" opacity="0.75"/>
+    <rect x="134" y="336" width="84" height="8" rx="4" fill="#1d1a2f"/>
+    <rect x="134" y="350" width="56" height="6" rx="3" fill="#8b829d"/>
+
+    <rect x="279" y="266" width="142" height="104" rx="10" fill="#fbf8fc" stroke="#e9ddf0"/>
+    <rect x="291" y="278" width="118" height="48" rx="8" fill="#e6daf3"/>
+    <circle cx="350" cy="302" r="14" fill="#f2547d" opacity="0.8"/>
+    <rect x="291" y="336" width="90" height="8" rx="4" fill="#1d1a2f"/>
+    <rect x="291" y="350" width="60" height="6" rx="3" fill="#8b829d"/>
+
+    <rect x="436" y="266" width="142" height="104" rx="10" fill="#fbf8fc" stroke="#e9ddf0"/>
+    <rect x="448" y="278" width="118" height="48" rx="8" fill="#fce8da"/>
+    <circle cx="507" cy="302" r="14" fill="#2f6f7e" opacity="0.8"/>
+    <rect x="448" y="336" width="76" height="8" rx="4" fill="#1d1a2f"/>
+    <rect x="448" y="350" width="54" height="6" rx="3" fill="#8b829d"/>
+  </g>
+
+  <!-- Floating Mobile Responsive Frame -->
+  <g filter="url(#phoneShadow)">
+    <rect x="556" y="128" width="148" height="276" rx="24" fill="#1d1a2f"/>
+    <rect x="564" y="136" width="132" height="260" rx="18" fill="#ffffff"/>
+    <rect x="606" y="142" width="48" height="7" rx="3.5" fill="#e6daf3"/>
+    <rect x="574" y="162" width="112" height="76" rx="10" fill="url(#plumGrad)"/>
+    <rect x="584" y="176" width="66" height="8" rx="4" fill="#f2547d"/>
+    <rect x="584" y="190" width="92" height="10" rx="5" fill="#ffffff"/>
+    <rect x="584" y="208" width="58" height="16" rx="8" fill="#ffffff"/>
+
+    <rect x="574" y="250" width="112" height="62" rx="10" fill="#fbf8fc" stroke="#e9ddf0"/>
+    <rect x="582" y="258" width="38" height="46" rx="7" fill="#f3d6df"/>
+    <rect x="628" y="264" width="46" height="7" rx="3.5" fill="#1d1a2f"/>
+    <rect x="628" y="278" width="34" height="6" rx="3" fill="#8b829d"/>
+    <rect x="628" y="292" width="28" height="10" rx="5" fill="#5a2a82"/>
+
+    <rect x="574" y="322" width="112" height="62" rx="10" fill="#fbf8fc" stroke="#e9ddf0"/>
+    <rect x="582" y="330" width="38" height="46" rx="7" fill="#e6daf3"/>
+    <rect x="628" y="336" width="48" height="7" rx="3.5" fill="#1d1a2f"/>
+    <rect x="628" y="350" width="30" height="6" rx="3" fill="#8b829d"/>
+    <rect x="628" y="364" width="36" height="10" rx="5" fill="url(#roseGrad)"/>
+  </g>
+</svg>
